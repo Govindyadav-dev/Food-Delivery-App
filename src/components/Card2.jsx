@@ -6,7 +6,7 @@ import { DecrementQty, IncrementQty, RemoveItem } from '../redux/cartSlice';
 function Card2({name,id,price,image,qty}) {
     let dispatch=useDispatch()
   return (
-    <div className='w-full h-[120px] p-2  shadow-lg flex justify-between '>
+    <div className='w-full h-[130px] p-2  shadow-lg flex justify-between '>
       <div className='w-[60%] h-full  flex gap-5'>
         <div className='w-[60%] h-full overflow-hidden rounded-lg'>
             <img src={image} alt="" className='object-cover'/>
